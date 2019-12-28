@@ -2,7 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="934564a2-b131-4acf-8f42-6339a4c59ff3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations/bin_www.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/fixtures/db.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/fixtures/profile-pic.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/task.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/user.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/Chaul.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/Chaul.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/task-manager.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/task-manager.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/task.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/task.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/user.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/router/task.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/task.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/router/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/user.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,12 +50,32 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="javascript.nodejs.core.library.configured.version" value="12.13.0" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../evoting" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="ts.external.directory.path" value="D:\Project\Angular\evoting-ui\node_modules\typescript\lib" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Project\NodeJS\evoting\config" />
+      <recent name="D:\Project\NodeJS\task-manager\tests\fixtures" />
       <recent name="D:\Project\NodeJS\task-manager" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Project\NodeJS\evoting" />
+      <recent name="D:\Project\NodeJS\evoting\src" />
+      <recent name="D:\Project\NodeJS\task-manager\src" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -51,6 +90,43 @@
       </list>
     </option>
   </component>
+  <component name="RunManager" selected="Node.js.test.js">
+    <configuration name="Tests (evoting-ui)" type="JavaScriptTestRunnerKarma">
+      <config-file value="$PROJECT_DIR$/../../Angular/evoting-ui/karma.conf.js" />
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="E2E Tests (evoting-ui)" type="JavaScriptTestRunnerProtractor">
+      <config-file value="$PROJECT_DIR$/../../Angular/evoting-ui/e2e/protractor.conf.js" />
+      <node-interpreter value="project" />
+      <protractor-options value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Angular Application (evoting-ui)" type="JavascriptDebugType" uri="http://localhost:4200">
+      <method v="2" />
+    </configuration>
+    <configuration name="test.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/test.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="Angular CLI Server (evoting-ui)" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/../../Angular/evoting-ui/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.test.js" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -62,7 +138,16 @@
       <option name="presentableId" value="Default" />
       <updated>1572789814092</updated>
       <workItem from="1572789816821" duration="6913000" />
-      <workItem from="1572797437284" duration="1845000" />
+      <workItem from="1572797437284" duration="4348000" />
+      <workItem from="1572804885200" duration="1476000" />
+      <workItem from="1572807558811" duration="706000" />
+      <workItem from="1572808381602" duration="4465000" />
+      <workItem from="1573034319547" duration="9072000" />
+      <workItem from="1573156104685" duration="1615000" />
+      <workItem from="1573157763545" duration="1305000" />
+      <workItem from="1573191068438" duration="4543000" />
+      <workItem from="1573238643544" duration="6449000" />
+      <workItem from="1573316760470" duration="10480000" />
     </task>
     <servers />
   </component>
@@ -84,5 +169,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/../../Angular/coreui-free-angular-admin-template" />
+    </ignored-roots>
   </component>
 </project>

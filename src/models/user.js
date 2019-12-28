@@ -62,7 +62,7 @@ userSchema.virtual('tasks', {
     ref: 'Task',
     localField: '_id', // field which set the relationship with foreign from User
     foreignField: 'owner' // field which set the relationship from Task
-})
+});
 
 userSchema.methods.toJSON = function () {
     const user = this;
@@ -73,7 +73,7 @@ userSchema.methods.toJSON = function () {
     delete userObject.avatar;
 
     return userObject;
-}
+};
 
 userSchema.methods.generateAuthToken = async function () {
     const user = this;
@@ -83,7 +83,7 @@ userSchema.methods.generateAuthToken = async function () {
     await user.save();
 
     return token;
-}
+};
 
 userSchema.statics.findByCredentials = async (email, password) => {
     const user = await User.findOne({email: email});
@@ -97,7 +97,7 @@ userSchema.statics.findByCredentials = async (email, password) => {
     }
 
     return user;
-}
+};
 
 // Hash the plain text password before saving
 userSchema.pre('save', async function (next) {
@@ -108,14 +108,14 @@ userSchema.pre('save', async function (next) {
     }
 
     next();
-})
+});
 
 //Delete user tasks when user is removed
-userSchema.post('remove', async function (next) {
+userSchema.pre('remove', async function (next) {
     const user = this;
     await Task.deleteMany({owner: user._id});
     next();
-})
+});
 
 const User = mongoose.model('User', userSchema);
 

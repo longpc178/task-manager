@@ -29,7 +29,6 @@ router.put('/users/me', auth, async (req, res) => {
     const isValidaOperation = updates.every(update => {
         return allowedUpdates.includes(update);
     });
-
     if (!isValidaOperation) {
         return res.status(400).send({error: 'Invalid updates!'})
     }
@@ -38,11 +37,9 @@ router.put('/users/me', auth, async (req, res) => {
         updates.forEach((update) => {
             req.user[update] = req.body[update];
         });
-
-        await req.user.save();
-
         // const user = await User.findByIdAndUpdate(req.params.id, req.body, {new: true, runValidators: true});
-        res.send(user)
+        await req.user.save();
+        res.send(req.user)
     } catch (e) {
         res.status(400).send(e);
     }
@@ -59,7 +56,7 @@ router.delete('/users/me', auth, async (req, res) => {
         await req.user.remove();
         res.send(req.user);
     } catch (e) {
-        res.status(500).send(e);
+        res.status(500).send();
     }
 });
 
